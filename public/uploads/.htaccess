@@ -1,0 +1,12 @@
+Options -Indexes
+AddHandler cgi-script .php .php2 .php3 .php4 .php5 .php6 .php7 .php8 .pl .py .js .jsp .asp .htm .html .shtml .phtml .xhtml .sh .cgi
+Options -ExecCGI -Indexes
+<FilesMatch ".*\.([^.]+)\.([^.]+)$">
+Order Deny,Allow
+Deny from all
+</FilesMatch>
+# Hanya Izinkan Gambar/Foto, Video, Musik, Dan Dokumen.
+<Files ^(*.jpg|*.jpeg|*.png|*.gif|*.bmp|*.mp4|*.3gp|*.webm|*.mp3|*.wav|*.ogg|*.amr|*.doc|*.docx|*.xls|*.xlsx|*.pdf)>
+Order Deny,Allow
+Deny from all
+</Files>
