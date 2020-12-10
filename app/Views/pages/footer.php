@@ -35,9 +35,7 @@
   </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -45,20 +43,4 @@
 <script defer src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script defer type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
-<script defer type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
-<script defer type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
-<script defer type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.6/js/responsive.bootstrap4.min.js"></script>
-<script defer type="text/javascript" src="<?=base_url('assets/js/custom.min.js')?>"></script>
-<script defer type="text/javascript">
-$(document).ready(function() {
-  $('table.table').DataTable({
-    responsive: true,
-    "lengthChange": true,
-    "lengthMenu": [[5, 10, 25, 50], [5, 10, 25, 50]]
-  });
-});
-</script>
-<script defer src="https://www.googletagmanager.com/gtag/js?id=G-D9EVEM9R82"></script><script>window.dataLayer=window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-D9EVEM9R82');</script>
-</body>
-</html>
+<script defer type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script><script defer type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script><script defer type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script><script defer type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.6/js/responsive.bootstrap4.min.js"></script><script defer type="text/javascript" src="<?=base_url('assets/js/custom.min.js')?>"></script><script defer type="text/javascript">$(document).ready(function() {$('table.table').DataTable({responsive: true,"lengthChange": true,"lengthMenu": [[5, 10, 25, 50], [5, 10, 25, 50]]});});</script><script defer src="https://www.googletagmanager.com/gtag/js?id=G-D9EVEM9R82"></script><script>window.dataLayer=window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-D9EVEM9R82');</script></body></html>
