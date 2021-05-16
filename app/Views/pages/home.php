@@ -29,7 +29,7 @@
         <div class="col-lg-8 mx-auto">
           <h2>Apa yang saya tawarkan</h2>
           <hr class="hr">
-          <p class="lead" loading="lazy">Saat ini saya siap mengerjakan project pemrograman berbasis web menggunakan PHP baik itu Codeigniter ataupun PHP Native untuk sekolah, perusahaan, dan program skripsi. Selain itu saya juga siap menghandle website Anda agar terus online.</p>
+          <p class="lead" loading="lazy">Saat ini saya siap mengerjakan project pemrograman berbasis web menggunakan PHP baik itu Codeigniter ataupun PHP Native untuk sekolah, perusahaan, dan program skripsi. Selain itu saya juga siap membuat desain bisnis Anda seperti Logo & Kaos.</p>
         </div>
       </div>
     </div>

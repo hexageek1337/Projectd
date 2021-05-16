@@ -43,7 +43,7 @@ class Home extends BaseController
             return redirect()->to(base_url());
         } else {
         	$this->email->setTo($this->settings->email);
-			$this->email->setSubject('MyProject - '.$subject);
+			$this->email->setSubject('iVenden - '.$subject);
 			$this->email->setMessage('<p>Dari '.$nama.' ('.$email.'),</p><p>'.$pesan.'</p>');
 
 			if ($this->email->send()) {

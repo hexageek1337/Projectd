@@ -58,7 +58,7 @@ INSERT INTO `project` (`kode_project`, `nama_project`, `mulai_project`, `selesai
 ('HDK001', 'Helpdesk', '2019-11-24', '2020-01-15', 'helpdesk', 'gambar.jpg', 'Web'),
 ('PKT001', 'PKetuV', '2019-07-24', '2019-09-30', 'pketuv', 'gambar.jpg', 'Web'),
 ('HPS001', 'HePOS - Point of Sale', '2020-11-02', '2020-12-30', 'hepos', 'gambar.jpg', 'Web'),
-('IVD001', 'iVenden.co', '2020-11-05', '2020-11-06', 'ivendenco', 'gambar.jpg', 'Desain');
+('IVD001', 'iVenden', '2020-11-05', '2020-11-06', 'ivenden', 'gambar.jpg', 'Desain');
 
 --
 -- Table structure for table `safelink`
@@ -85,10 +85,7 @@ INSERT INTO `safelink` (`kode_safelink`, `nama_safelink`, `slug_safelink`, `url_
 (5, 'E-Learning Denny', 'elearning', 'https://elearning.denny.my.id/', NULL, '2020-11-04 19:02:00'),
 (6, 'Pemilihan Ketua Group Voting', 'pketuv', 'https://pketuv.denny.my.id/', NULL, '2020-11-06 19:02:00'),
 (7, 'HePOS - Point of Sale', 'hepos', 'https://hepos.denny.my.id/', NULL, '2020-12-06 14:02:00'),
-(8, 'iVenden.co', 'ivendenco', 'https://www.instagram.com/ivenden.co/', NULL, '2020-11-24 13:39:00'),
-(9, 'SoundCloud Flux1on', 'soundcloud', 'https://soundcloud.com/flux1on', NULL, '2020-11-04 19:02:00'),
-(10, 'JapaneseDixec', 'japanesedixec', 'https://soundcloud.com/flux1on/flux1on-japanesedixec-free-beats', NULL, '2020-11-04 19:02:00');
-
+(8, 'iVenden', 'ivenden', 'https://www.instagram.com/ivenden.id/', NULL, '2020-11-24 13:39:00');
 --
 -- Indexes for dumped tables
 --

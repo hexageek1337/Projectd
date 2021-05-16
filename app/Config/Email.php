@@ -14,7 +14,7 @@ class Email extends BaseConfig
 	/**
 	 * @var string
 	 */
-	public $fromName = 'MyProject';
+	public $fromName = 'iVenden';
 
 	/**
 	 * @var string
@@ -26,7 +26,7 @@ class Email extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $userAgent = 'Projectd';
+	public $userAgent = 'iVenden';
 
 	/**
 	 * The mail sending protocol: mail, sendmail, smtp
