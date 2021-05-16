@@ -48,6 +48,6 @@
 <header class="bg-primary text-white">
 	<div class="container text-center">
 		<h1 class="h1">Welcome to <?=$config->title?></h1>
-		<p class="lead" loading="lazy">Projectd is landing page portofolio from <strong>Denny Septian Panggabean</strong> with Codeigniter 4 and Bootstrap 4</p>
+		<p class="lead" loading="lazy"><strong>iVenden</strong> merupakan tempat konsultasi kebutuhan desain dan website anda yang tepat.</p>
 	</div>
 </header>
